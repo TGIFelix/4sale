@@ -1,6 +1,6 @@
 <script>
-	let domainForSale = 'felix.surf';
-	let email = 'info@tgifelix.com';
+	let domainForSale = "felix.surf";
+	let email = "info@tgifelix.com";
 	let emoji = ['🤙','🤟','🥳','👨‍🚀','🙀','🥰','😍','👽','🤖'];
 	let randomEmoji = emoji[Math.floor(Math.random()*emoji.length)];
 	let awesome = ['AWESOMEEEEE!','YIPEE KI YAY!','WoOoOoOoT!','YEEEHAAAWW!','AWWW YEAH!', 'OMGOMGOMG!1!!'];
