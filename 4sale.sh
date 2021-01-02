@@ -59,6 +59,10 @@ do
             sed -i '' '2s/^.*$/	let domainForSale = "webdev.party";/g' src/App.svelte 
             yarn build
             surge $PWD/public/ webdev.party
+        #done
+            echo ""
+            echo '2) Surge List'
+            echo '3) Exit'
             ;;
         "Surge List")
             surge list
