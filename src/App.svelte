@@ -1,5 +1,5 @@
 <script>
-	let domainForSale = "felix.surf";
+	let domainForSale = "webdev.party";
 	let email = "info@tgifelix.com";
 	let emoji = ['🤙','🤟','🥳','👨‍🚀','🙀','🥰','😍','👽','🤖'];
 	let randomEmoji = emoji[Math.floor(Math.random()*emoji.length)];

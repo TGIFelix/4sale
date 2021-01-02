@@ -8,6 +8,9 @@
 - [noordzee.surf](http://noordzee.surf)
 - [northsea.surf](http://northsea.surf)
 
+
+[![asciicast](https://asciinema.org/a/14.png)](https://asciinema.org/a/14)
+
 ---
 
 App created with [Svelte](https://svelte.dev)

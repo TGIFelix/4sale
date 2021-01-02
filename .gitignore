@@ -2,7 +2,7 @@
 /public/build/
 .DS_Store
 .vscode
-*.sh
+# *.sh
 
 # Local Netlify folder
 .netlify
