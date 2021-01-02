@@ -18,7 +18,7 @@ fancyprint ${Color1} "╚═╝      ╚═════╝ ╚═╝  ╚═╝ 
 fancyprint ${Color2} "                                   github.com/tgifelix/4sale "
 echo ""
 PS3='➡ '
-options=("Build & Deploy" "List domain" "Exit")
+options=("Build & Deploy" "List domains" "Exit")
 select opt in "${options[@]}"
 do
     case $opt in
