@@ -68,7 +68,8 @@ do
             fancyprint ${Color1} "██║  ██║██╔══╝  ██╔═══╝ ██║     ██║   ██║  ╚██╔╝  ██╔══╝  ██║  ██║"
             fancyprint ${Color1} "██████╔╝███████╗██║     ███████╗╚██████╔╝   ██║   ███████╗██████╔╝"
             fancyprint ${Color1} "╚═════╝ ╚══════╝╚═╝     ╚══════╝ ╚═════╝    ╚═╝   ╚══════╝╚═════╝ "
-            echo ""            
+            echo ""
+            echo "1) Build & Deploy"            
             echo '2) List domains'
             echo '3) Exit'
             ;;
