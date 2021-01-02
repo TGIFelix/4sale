@@ -18,7 +18,7 @@ fancyprint ${Color1} "╚═╝      ╚═════╝ ╚═╝  ╚═╝ 
 fancyprint ${Color2} "                                   github.com/tgifelix/4sale "
 echo ""
 PS3='➡ '
-options=("Build & Deploy" "Surge List" "Exit")
+options=("Build & Deploy" "List domain" "Exit")
 select opt in "${options[@]}"
 do
     case $opt in
@@ -69,10 +69,10 @@ do
             fancyprint ${Color1} "██████╔╝███████╗██║     ███████╗╚██████╔╝   ██║   ███████╗██████╔╝"
             fancyprint ${Color1} "╚═════╝ ╚══════╝╚═╝     ╚══════╝ ╚═════╝    ╚═╝   ╚══════╝╚═════╝ "
             echo ""            
-            echo '2) Surge List'
+            echo '2) List domains'
             echo '3) Exit'
             ;;
-        "Surge List")
+        "List domains")
             surge list
             ;;
         "Exit")
