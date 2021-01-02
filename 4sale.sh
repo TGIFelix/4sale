@@ -1,7 +1,7 @@
 #!/bin/bash
 Color_off='\033[0m'
 Color1='\033[0;35m'
-Color2='\033[0;36m'
+Color2='\033[1;36m'
 # }}}
 fancyprint () {
     printf '%b\n' "$1$2$Color_off" >&2
@@ -62,12 +62,15 @@ do
         #done
             clear
             echo ""
-            fancyprint ${Color1} "██████╗ ███████╗██████╗ ██╗      ██████╗ ██╗   ██╗███████╗██████╗ " 
-            fancyprint ${Color1} "██╔══██╗██╔════╝██╔══██╗██║     ██╔═══██╗╚██╗ ██╔╝██╔════╝██╔══██╗"
-            fancyprint ${Color1} "██║  ██║█████╗  ██████╔╝██║     ██║   ██║ ╚████╔╝ █████╗  ██║  ██║"
-            fancyprint ${Color1} "██║  ██║██╔══╝  ██╔═══╝ ██║     ██║   ██║  ╚██╔╝  ██╔══╝  ██║  ██║"
-            fancyprint ${Color1} "██████╔╝███████╗██║     ███████╗╚██████╔╝   ██║   ███████╗██████╔╝"
-            fancyprint ${Color1} "╚═════╝ ╚══════╝╚═╝     ╚══════╝ ╚═════╝    ╚═╝   ╚══════╝╚═════╝ "
+            fancyprint ${Color2} " ✔ Deployed: https://www.felix.surf"
+            fancyprint ${Color2} " ✔ Deployed: https://www.northsea.surf"
+            fancyprint ${Color2} " ✔ Deployed: https://www.noordzee.surf"
+            fancyprint ${Color2} " ✔ Deployed: https://www.zandvoort.surf"
+            fancyprint ${Color2} " ✔ Deployed: https://www.zandfornia.com"
+            fancyprint ${Color2} " ✔ Deployed: https://www.clickguest.com"
+            fancyprint ${Color2} " ✔ Deployed: https://www.statusaway.com"
+            fancyprint ${Color2} " ✔ Deployed: https://www.ontbijt.club"
+            fancyprint ${Color2} " ✔ Deployed: https://www.webdev.party"
             echo ""
             echo "1) Build & Deploy"            
             echo '2) List domains'
