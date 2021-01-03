@@ -5,7 +5,6 @@
 	let randomEmoji = emoji[Math.floor(Math.random()*emoji.length)];
 	let awesome = ['AWESOMEEEEE!','YIPEE KI YAY!','WoOoOoOoT!','YEEEHAAAWW!','AWWW YEAH!', 'OMGOMGOMG!1!!'];
 	let randomAwesome = awesome[Math.floor(Math.random()*awesome.length)];
-	console.log('Hi stranger, welcome to my markup. If you are looking for something specific you can always contact me, I love to help!')
 </script>
 
 <svelte:head>
