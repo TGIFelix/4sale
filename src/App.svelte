@@ -37,7 +37,7 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-        min-height: 99vh;
+        min-height: 90vh;
     }
 	a {
 		text-decoration: none;
