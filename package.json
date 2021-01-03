@@ -1,6 +1,6 @@
 {
-  "name": "svelte-app",
-  "version": "1.0.0",
+  "name": "4sale",
+  "version": "1.0.6",
   "license": "MIT",
   "scripts": {
     "build": "rollup -c",
