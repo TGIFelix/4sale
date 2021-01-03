@@ -63,13 +63,21 @@ do
             clear
             echo ""
             fancyprint ${Color2} " ✔ Deployed: https://www.felix.surf"
+            sleep 0.5s
             fancyprint ${Color2} " ✔ Deployed: https://www.northsea.surf"
+            sleep 0.5s
             fancyprint ${Color2} " ✔ Deployed: https://www.noordzee.surf"
+            sleep 0.5s
             fancyprint ${Color2} " ✔ Deployed: https://www.zandvoort.surf"
+            sleep 0.5s
             fancyprint ${Color2} " ✔ Deployed: https://www.zandfornia.com"
+            sleep 0.5s
             fancyprint ${Color2} " ✔ Deployed: https://www.clickguest.com"
+            sleep 0.5s
             fancyprint ${Color2} " ✔ Deployed: https://www.statusaway.com"
+            sleep 0.5s
             fancyprint ${Color2} " ✔ Deployed: https://www.ontbijt.club"
+            sleep 0.5s
             fancyprint ${Color2} " ✔ Deployed: https://www.webdev.party"
             echo ""
             echo "1) Build & Deploy"            
@@ -82,6 +90,6 @@ do
         "Exit")
             exit 0
             ;;
-        *) fancyprint ${Color1} "invalid option $REPLY";;
+        *) fancyprint ${Color1} "$REPLY is not an option.";;
     esac
 done
