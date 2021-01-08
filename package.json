@@ -1,6 +1,6 @@
 {
   "name": "4sale",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "license": "MIT",
   "scripts": {
     "build": "rollup -c",
