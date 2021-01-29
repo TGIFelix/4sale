@@ -1,8 +1,6 @@
 /node_modules
 /public/build/
+/email
 .DS_Store
 .vscode
-# *.sh
-
-# Local Netlify folder
 .netlify
