@@ -80,10 +80,8 @@ do
             sleep 0.5s
             fancyprint ${Color2} " ✔ Deployed: https://www.webdev.party"
             echo ""
-            echo "1) Build & Deploy"            
-            echo '2) List domains'
-            echo '3) Exit'
-            ;;
+            continue
+	    ;;
         "List domains")
             surge list
             ;;
