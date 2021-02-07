@@ -62,25 +62,25 @@ do
         #done
             clear
             echo ""
-            fancyprint ${Color2} " ✔ Deployed: https://www.felix.surf"
+            fancyprint ${Color2} " ✔ Deployed: http://www.felix.surf"
             sleep 0.5s
-            fancyprint ${Color2} " ✔ Deployed: https://www.northsea.surf"
+            fancyprint ${Color2} " ✔ Deployed: http://www.northsea.surf"
             sleep 0.5s
-            fancyprint ${Color2} " ✔ Deployed: https://www.noordzee.surf"
+            fancyprint ${Color2} " ✔ Deployed: http://www.noordzee.surf"
             sleep 0.5s
-            fancyprint ${Color2} " ✔ Deployed: https://www.zandvoort.surf"
+            fancyprint ${Color2} " ✔ Deployed: http://www.zandvoort.surf"
             sleep 0.5s
-            fancyprint ${Color2} " ✔ Deployed: https://www.zandfornia.com"
+            fancyprint ${Color2} " ✔ Deployed: http://www.zandfornia.com"
             sleep 0.5s
-            fancyprint ${Color2} " ✔ Deployed: https://www.clickguest.com"
+            fancyprint ${Color2} " ✔ Deployed: http://www.clickguest.com"
             sleep 0.5s
-            fancyprint ${Color2} " ✔ Deployed: https://www.statusaway.com"
+            fancyprint ${Color2} " ✔ Deployed: http://www.statusaway.com"
             sleep 0.5s
-            fancyprint ${Color2} " ✔ Deployed: https://www.ontbijt.club"
+            fancyprint ${Color2} " ✔ Deployed: http://www.ontbijt.club"
             sleep 0.5s
-            fancyprint ${Color2} " ✔ Deployed: https://www.webdev.party"
+            fancyprint ${Color2} " ✔ Deployed: http://www.webdev.party"
             echo ""
-            continue
+            exit 0
 	    ;;
         "List domains")
             surge list
