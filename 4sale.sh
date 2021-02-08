@@ -63,21 +63,21 @@ do
             clear
             echo ""
             fancyprint ${Color2} " ✔ Deployed: http://www.felix.surf"
-            sleep 0.5s
+            sleep 0.5
             fancyprint ${Color2} " ✔ Deployed: http://www.northsea.surf"
-            sleep 0.5s
+            sleep 0.5
             fancyprint ${Color2} " ✔ Deployed: http://www.noordzee.surf"
-            sleep 0.5s
+            sleep 0.5
             fancyprint ${Color2} " ✔ Deployed: http://www.zandvoort.surf"
-            sleep 0.5s
+            sleep 0.5
             fancyprint ${Color2} " ✔ Deployed: http://www.zandfornia.com"
-            sleep 0.5s
+            sleep 0.5
             fancyprint ${Color2} " ✔ Deployed: http://www.clickguest.com"
-            sleep 0.5s
+            sleep 0.5
             fancyprint ${Color2} " ✔ Deployed: http://www.statusaway.com"
-            sleep 0.5s
+            sleep 0.5
             fancyprint ${Color2} " ✔ Deployed: http://www.ontbijt.club"
-            sleep 0.5s
+            sleep 0.5
             fancyprint ${Color2} " ✔ Deployed: http://www.webdev.party"
             echo ""
             exit 0
