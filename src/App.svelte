@@ -3,7 +3,7 @@
 	let email = "info@tgifelix.com";
 	let emoji = ['🤙','🤟','🥳','👨‍🚀','🙀','🥰','😍','👽','🤖'];
 	let randomEmoji = emoji[Math.floor(Math.random()*emoji.length)];
-	let awesome = ['AWESOMEEEEE!','YIPEE KI YAY!','WoOoOoOoT!','YEEEHAAAWW!','AWWW YEAH!', 'OMGOMGOMG!1!!'];
+	let awesome = ['AWESOMEEEEE!', 'This is YOUR day!', 'YIPEE KI YAY!','WoOoOoOoT!','YEEEHAAAWW!','AWWW YEAH!', 'OMGOMGOMG!1!!'];
 	let randomAwesome = awesome[Math.floor(Math.random()*awesome.length)];
 </script>
 
