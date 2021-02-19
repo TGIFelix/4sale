@@ -1,5 +1,5 @@
 <script>
-	let domainForSale = "webdev.party";
+	let domainForSale = "statusaway.com";
 	let email = "info@tgifelix.com";
 	let emoji = ['🤙','🤟','🥳','👨‍🚀','🙀','🥰','😍','👽','🤖'];
 	let randomEmoji = emoji[Math.floor(Math.random()*emoji.length)];
@@ -23,6 +23,7 @@
 </main>
 
 <style>
+	@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital@0;1&family=Open+Sans&display=swap');
 	:root {
 		--gradient: 120deg, #ff5f6d 0%, #ffc371 100%;
 	}
@@ -49,10 +50,10 @@
 		transition: background-size 0.1s ease-in;
 	}
 	a:hover {
-		background-size: 100% 69%;
+		background-size: 100% 35%;
 	}
 	h1 {
-		font-family: monospace;
+		font-family: 'JetBrains Mono';
 		font-size: 5em;
 	}
 	h2 {
@@ -60,7 +61,7 @@
 		margin: 0;
 	}
 	p {
-		font-family: sans-serif;
+		font-family: 'JetBrains Mono';
 		font-size: 2em;
 		margin: 10px;
 	}
