@@ -39,10 +39,6 @@ do
             sed -i '' '2s/^.*$/	let domainForSale = "zandvoort.surf";/g' src/App.svelte 
             yarn build
             surge $PWD/public/ zandvoort.surf
-        #zandfornia.com
-            sed -i '' '2s/^.*$/	let domainForSale = "zandfornia.com";/g' src/App.svelte 
-            yarn build
-            surge $PWD/public/ zandfornia.com
         #clickguest.com
             sed -i '' '2s/^.*$/	let domainForSale = "clickguest.com";/g' src/App.svelte 
             yarn build
@@ -69,8 +65,6 @@ do
             fancyprint ${Color2} " ✔ Deployed: http://www.noordzee.surf"
             sleep 0.5
             fancyprint ${Color2} " ✔ Deployed: http://www.zandvoort.surf"
-            sleep 0.5
-            fancyprint ${Color2} " ✔ Deployed: http://www.zandfornia.com"
             sleep 0.5
             fancyprint ${Color2} " ✔ Deployed: http://www.clickguest.com"
             sleep 0.5
